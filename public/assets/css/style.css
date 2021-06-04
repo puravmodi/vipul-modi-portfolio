@@ -393,6 +393,18 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-img-set{
+  max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid;
+    box-shadow: -17px 14px 33px -9px rgba(0,0,0,0.69);
+-webkit-box-shadow: -17px 14px 33px -9px rgba(0,0,0,0.69);
+-moz-box-shadow: -17px 14px 33px -9px rgba(0,0,0,0.69);
+}
+.about-center{
+  text-align: center;
+}
 .about {
   background-color: #f5f8fd;
 }
@@ -692,8 +704,6 @@ section {
   font-size: 24px;
 }
 
-.services .icon-box:hover .icon {
-}
 
 .services .icon-box:hover .icon i {
   color: #149ddd;
