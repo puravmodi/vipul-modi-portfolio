@@ -1,0 +1,9 @@
+# Query: bxl-linkedin
+# ContextLines: 1
+
+1 result - 1 file
+
+~/Downloads/iPortfolio/index.html:
+  52            <a href="https://www.facebook.com/vipul.modi.3994/" target="0" class="facebook"><i class="bx bxl-facebook"></i></a>
+  53:           <a href="#" class="linkedin"><i class="bx bxl-mail"></i></a>
+  54          </div>
