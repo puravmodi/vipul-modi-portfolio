@@ -197,7 +197,7 @@ h6 {
 }
 
 .main-name a {
-  color: var(--mainColor);
+  animation: glow 3s linear infinite;
   text-decoration: none;
   margin-left: 0;
 }
@@ -206,13 +206,19 @@ h6 {
   .main-name a {
     color: var(--mainColor);
     text-decoration: none;
-    
   }
 }
 
-.main-name a:hover {
-  color: transparent;
-  -webkit-text-stroke: 2px var(--mainColor);
+
+
+@keyframes glow {
+  from{
+    color: var(--mainColor);
+  }
+  to {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--mainColor);
+  }
 }
 
 @supports not (-webkit-text-stroke: 2px red) {
